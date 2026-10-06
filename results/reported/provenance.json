@@ -1,0 +1,142 @@
+{
+  "source_filename": "Industrial IoT Intrusion Detection Using Feature-update 9.docx",
+  "source_sha256": "b92e4868ea934a958ad1467bc175bcae0670d5ae61fdc9a34acb31b1704f69e7",
+  "status": "Reported manuscript values; not independently reproduced",
+  "tables": [
+    {
+      "file": "table_01.csv",
+      "rows": 17,
+      "sha256": "305fc4ef84409e8769752174eb46b8bcdd811f4e9614bd941c053895f060648c"
+    },
+    {
+      "file": "table_02.csv",
+      "rows": 6,
+      "sha256": "36e4ae0bb2fb0031bf7ce716dd0be72ea5f0b22d86965912e3633b583d910441"
+    },
+    {
+      "file": "table_03.csv",
+      "rows": 8,
+      "sha256": "77660a801727213db0927c10f9ae457532917f99d734c5cdd04921f81669ce6d"
+    },
+    {
+      "file": "table_04.csv",
+      "rows": 16,
+      "sha256": "4aea9ce3224fa97b5bfd5c0f6f1d26e977fd06fcac04058368d43af4e8464f71"
+    },
+    {
+      "file": "table_05.csv",
+      "rows": 16,
+      "sha256": "0a1cace7514d036f1c0d28f2f12eb9b3188d470c9faa5bc22709886f77704fcb"
+    },
+    {
+      "file": "table_06.csv",
+      "rows": 28,
+      "sha256": "b84b22280a11ad626752afc01f95e13a91d8d7ecee35d6ed258fee92fc3f4dc3"
+    },
+    {
+      "file": "table_07.csv",
+      "rows": 26,
+      "sha256": "c82d85fa1f73b7aa35627c7e8bba9c06ba1ea74fd88f4df82fddc1e48dd8c202"
+    },
+    {
+      "file": "table_08.csv",
+      "rows": 17,
+      "sha256": "f360bf4b92b782ce2d7cc9fe26462ffbcfcd92e9d0b2992156e178f0f8e566b5"
+    },
+    {
+      "file": "table_09.csv",
+      "rows": 5,
+      "sha256": "108a0565266c1978079e55bc0e30c467198e0699e50877f68975a255d4df4cff"
+    },
+    {
+      "file": "table_10.csv",
+      "rows": 9,
+      "sha256": "08f84bff412078ab02ff94ad29ea1c4023b39a6bd73bb831e7f27822ddf3e0d6"
+    },
+    {
+      "file": "table_11.csv",
+      "rows": 6,
+      "sha256": "f98a2690dbc637478cda8f28fdb9714bd7dadebf82424f55ce1b09d2d1fe142c"
+    },
+    {
+      "file": "table_12.csv",
+      "rows": 5,
+      "sha256": "a7d8fdbeed3c910dd70a78685ced9e3bd0260b85552411b9b24e5dc88d9d269d"
+    },
+    {
+      "file": "table_13.csv",
+      "rows": 6,
+      "sha256": "b6bb1b174183ba3c284d8a788e456089087b8cd9d576c5105b1a35e093b6a641"
+    },
+    {
+      "file": "table_14.csv",
+      "rows": 7,
+      "sha256": "80a1a2327554ce7ddb4c7700bed69bfff3ae92fd9ec15a49429c96d339ca41f9"
+    },
+    {
+      "file": "table_15.csv",
+      "rows": 5,
+      "sha256": "cfb4699cfadebe870f4958155ea594cd6fd1370cbc6f20eacedea2a5fae6aaed"
+    },
+    {
+      "file": "table_16.csv",
+      "rows": 25,
+      "sha256": "bed1b9313331f21d172bbe02488f25e649c55f2567f2d90bc66c14229c9ed394"
+    },
+    {
+      "file": "table_17.csv",
+      "rows": 16,
+      "sha256": "f0783c74fa593876732672c541c0a5a61dda3195c03b4c2342298728686d067d"
+    },
+    {
+      "file": "table_18.csv",
+      "rows": 6,
+      "sha256": "e5d9e69d5e92ad976f16bfb9b73af922fabd4395226ebbc8ad55284bde0db43b"
+    },
+    {
+      "file": "table_19.csv",
+      "rows": 4,
+      "sha256": "21a3690e8f28ebf70412d140781e387ddad7952fdc46cf2953038955e31d198f"
+    },
+    {
+      "file": "table_20.csv",
+      "rows": 4,
+      "sha256": "6a44c520cd7761a29e94b20ad993396303e66c0ae65ceb5240e9c0a26d78b56c"
+    }
+  ],
+  "figures": [
+    {
+      "file": "image2.png",
+      "sha256": "a3e449b51a87ffa0bbeb186f0b03b4ba5f5cf1d81f76be21b517b02856f49e84"
+    },
+    {
+      "file": "image3.png",
+      "sha256": "9747ac5545264797ec19882c8e9441a1d244874058571a4e007f0b44f29772d4"
+    },
+    {
+      "file": "image1.png",
+      "sha256": "7550285d51bb33fdd0637621c3f9d69b72342d3bcde2356f321152906c1ae3f5"
+    },
+    {
+      "file": "image5.png",
+      "sha256": "e91e796192ec9ca8d38592ba1fce704db9c8fc4a4915fe5418c734460a26d2f1"
+    },
+    {
+      "file": "image4.png",
+      "sha256": "03513becce8f48ea8cb2e95aba28c5975e433a7e134563e82de6c8adf715face"
+    },
+    {
+      "file": "image6.png",
+      "sha256": "5027474b4a62a9d9ba8df27ba8653b8820477f6012ff7f565359606b3a7cd2b0"
+    },
+    {
+      "file": "image8.png",
+      "sha256": "a88ada25835c45b0607de842762b60f968abc232a6853b79c3b1088c4f9cb12b"
+    },
+    {
+      "file": "image7.png",
+      "sha256": "1f562994e8c7836c22bbb9a06493b75e97ad9425749781e1cc9cc77d15a1c1b7"
+    }
+  ],
+  "extraction": "OOXML text per table cell; whitespace joined; row/cell order retained; images copied unchanged"
+}

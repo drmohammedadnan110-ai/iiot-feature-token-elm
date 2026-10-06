@@ -1,0 +1,16 @@
+Setting,Final setting
+Working dataset size,"1,890,671 records"
+Protocol A source-reported size,"1,909,671 records"
+Number of target classes,15
+Protocol B TRAIN,"1,210,030 records (64%)"
+Protocol B VALIDATION,"302,507 records (16%)"
+Protocol B TEST,"378,134 records (20%)"
+Independent seeds,"7, 13, 21, 42, 99"
+Primary HPO method,TPE
+HPO budget,100 validation-only trials
+Legacy HPO comparator,GWO under the same 100-evaluation budget
+Model-selection criterion,VALIDATION Macro-F1
+Encoder optimizer,Adam
+Primary loss,Focal loss with TRAIN-derived class weights
+Calibration,Temperature scaling fitted on VALIDATION only
+TEST-set use,Final locked evaluation only

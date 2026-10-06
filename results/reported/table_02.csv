@@ -1,0 +1,6 @@
+Protocol,Partition,Share,N,Permitted use,Preprocessing rule,May select model?
+Protocol A,Development partition,80%,"1,527,736",Legacy training/model selection,Fit on development/training only,"Yes, within legacy protocol"
+Protocol A,Held-out TEST,20%,"381,935",Legacy final evaluation,Apply fitted pipeline only,No
+Protocol B,TRAIN core,64%,"1,210,030",Parameter learning and fit-dependent preprocessing,Fit here only,No
+Protocol B,VALIDATION,16%,"302,507","HPO, early stopping, calibration, thresholds",Apply TRAIN-fitted transformations,Yes
+Protocol B,Held-out TEST,20%,"378,134",Final locked evaluation only,Apply frozen selected pipeline only,No

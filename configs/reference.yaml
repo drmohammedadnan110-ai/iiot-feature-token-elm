@@ -1,0 +1,25 @@
+# Reference choices, not recovered best hyperparameters from the manuscript.
+data_dir: data/prepared/edge
+seed: 7
+threads: 4
+model:
+  width: 96
+  layers: 2
+  heads: 4
+  expansion: 3
+  dropout: 0.1
+  attention: true
+training:
+  epochs: 100
+  patience: 15
+  batch_size: 512
+  lr: 0.0003
+  weight_decay: 0.0001
+  gamma: 2.0
+  class_weighted: true
+  clip_grad_norm: 5.0
+elm:
+  hidden: 512
+  activation: gelu
+  ridge: 0.01
+  initialization: orthogonal

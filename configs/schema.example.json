@@ -1,0 +1,9 @@
+{
+  "numeric": ["flow_duration", "packet_length"],
+  "categorical": ["protocol"],
+  "label": "attack_type",
+  "classes": ["Normal", "Attack"],
+  "group_columns": ["capture_id"],
+  "forbidden": ["source_ip", "destination_ip", "binary_label", "timestamp"],
+  "category_aliases": {"protocol": {"-": "", "?": ""}}
+}

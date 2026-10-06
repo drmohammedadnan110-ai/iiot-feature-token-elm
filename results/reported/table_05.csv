@@ -1,0 +1,16 @@
+Component,Hyperparameter,Search domain,Type/scale
+Feature tokenizer,Token dimension,"{64, 96, 128}",Categorical
+Feature-token encoder,Attention layers,1-4,Integer
+Feature-token encoder,Attention heads,"{4, 8}",Categorical
+Feature-token encoder,FFN expansion,2-4x,Numeric range
+Feature-token encoder,Dropout,0.00-0.30,Continuous
+Training,Learning rate,1e-5-3e-3,Log scale
+Training,Weight decay,1e-6-1e-2,Log scale
+Training,Batch size,"{256, 512, 1024, 2048}",Categorical
+Loss,Focal gamma,1.0-3.0,Continuous
+ELM,Hidden units,"{128, 256, 512, 1024, 2048}",Categorical
+ELM,Activation,"{GELU, ReLU, tanh}",Categorical
+ELM,Ridge lambda,1e-6-1e1,Log scale
+Random-feature map,Initialization,"{Gaussian, orthogonal, structured trigonometric}",Categorical
+HPO,Trial budget,100,Fixed
+Objective,Selection criterion,VALIDATION Macro-F1,Maximize

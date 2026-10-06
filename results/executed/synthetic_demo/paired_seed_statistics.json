@@ -1,0 +1,51 @@
+{
+  "reference": "proposed",
+  "seeds": [
+    7,
+    13,
+    21,
+    42,
+    99
+  ],
+  "summaries": {
+    "logistic": {
+      "n": 5,
+      "mean": 0.8078851510890954,
+      "sample_sd": 1.2412670766236366e-16,
+      "ci95": [
+        0.8078851510890953,
+        0.8078851510890955
+      ],
+      "unit": "training seed on a fixed test population, not independent traffic populations"
+    },
+    "proposed": {
+      "n": 5,
+      "mean": 0.8393230698880629,
+      "sample_sd": 0.021394722701918105,
+      "ci95": [
+        0.8127580129575385,
+        0.8658881268185874
+      ],
+      "unit": "training seed on a fixed test population, not independent traffic populations"
+    }
+  },
+  "comparisons": {
+    "logistic": {
+      "n": 5,
+      "mean": 0.03143791879896744,
+      "sample_sd": 0.021394722701918105,
+      "ci95": [
+        0.004872861868442921,
+        0.058002975729491965
+      ],
+      "unit": "training seed on a fixed test population, not independent traffic populations",
+      "t": 3.2857319295522984,
+      "p_raw": 0.030336860906726416,
+      "cohens_dz": 1.4694239900640982,
+      "zero_variance_difference": false,
+      "p_holm": 0.030336860906726416
+    }
+  },
+  "test_sha256": "f78045fecefb684b324b932060a9df817c22f0443d1cdf7186cc19cc1ff5a813",
+  "classes": "[\"Normal\", \"DDoS_UDP\", \"DDoS_ICMP\", \"SQL_Injection\", \"DDoS_TCP\", \"DDoS_HTTP\", \"Password\", \"Vulnerability_Scanner\", \"Port_Scanning\", \"XSS\", \"Uploading\", \"Backdoor\", \"OS_Fingerprinting\", \"Ransomware\", \"MITM\"]"
+}

@@ -1,0 +1,17 @@
+Traffic class,Traffic category,Count,Percentage,TRAIN,VALIDATION,TEST
+Normal,Benign,"1,367,959",72.353%,"875,494","218,873","273,592"
+DDoS_UDP,Volumetric flood,"120,532",6.375%,"77,141","19,285","24,106"
+DDoS_ICMP,Volumetric flood,"67,391",3.564%,"43,130","10,783","13,478"
+SQL_Injection,Injection,"50,421",2.667%,"32,270","8,067","10,084"
+DDoS_TCP,Volumetric flood,"49,651",2.626%,"31,777","7,944","9,930"
+DDoS_HTTP,Volumetric flood,"48,693",2.575%,"31,163","7,791","9,739"
+Password,Credential attack,"38,217",2.021%,"24,459","6,115","7,643"
+Vulnerability_Scanner,Reconnaissance,"31,482",1.665%,"20,149","5,037","6,296"
+Port_Scanning,Reconnaissance,"28,904",1.529%,"18,498","4,625","5,781"
+XSS,Web attack,"22,734",1.202%,"14,550","3,637","4,547"
+Uploading,Malware/upload,"19,856",1.050%,"12,708","3,177","3,971"
+Backdoor,Persistent access,"17,423",0.922%,"11,150","2,788","3,485"
+OS_Fingerprinting,Reconnaissance,"14,381",0.761%,"9,204","2,301","2,876"
+Ransomware,Extortion malware,"11,293",0.597%,"7,227","1,807","2,259"
+MITM,Interception,"1,734",0.092%,"1,110",277,347
+Total,-,"1,890,671",100.000%,"1,210,030","302,507","378,134"

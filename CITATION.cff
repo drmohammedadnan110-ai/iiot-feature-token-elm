@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this software separately from the supplied manuscript; no published manuscript DOI was established."
+title: "IIoT Feature-Token Attention and Ridge ELM: Reference Implementation"
+version: 0.1.0
+type: software
+authors:
+  - name: "drmohammedadnan110-ai contributors"
+repository-code: "https://github.com/drmohammedadnan110-ai/iiot-feature-token-elm"
+url: "https://drmohammedadnan110-ai.github.io/iiot-feature-token-elm/"
+license: MIT
+date-released: 2026-10-06

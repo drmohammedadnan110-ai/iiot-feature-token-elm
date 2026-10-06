@@ -1,0 +1,33 @@
+{
+  "data": "SYNTHETIC Gaussian toy data, not network captures",
+  "purpose": "Executed integration evidence only; does not validate paper accuracy or real-world detection",
+  "rows": 1080,
+  "classes": [
+    "Normal",
+    "DDoS_UDP",
+    "DDoS_ICMP",
+    "SQL_Injection",
+    "DDoS_TCP",
+    "DDoS_HTTP",
+    "Password",
+    "Vulnerability_Scanner",
+    "Port_Scanning",
+    "XSS",
+    "Uploading",
+    "Backdoor",
+    "OS_Fingerprinting",
+    "Ransomware",
+    "MITM"
+  ],
+  "seeds": [
+    7,
+    13,
+    21,
+    42,
+    99
+  ],
+  "source_sha256": "f36ceec22303ecc2c841a98cd3bf8424ae872998506be898c8112022db472ec4",
+  "test_sha256": "f78045fecefb684b324b932060a9df817c22f0443d1cdf7186cc19cc1ff5a813",
+  "protocol": "Fixed split seed 42; training seeds vary; no HPO; both methods predeclared before TEST evaluation",
+  "bundle_provenance": "Reports redact local input paths; numeric model bundles remain in the local demo directory"
+}

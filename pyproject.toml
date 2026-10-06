@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iiot-feature-token-elm"
+version = "0.1.0"
+description = "Feature-token attention and ridge ELM for reproducible IIoT intrusion detection research"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2,<3", "scipy>=1.10,<2", "scikit-learn>=1.3,<2", "torch>=2.2,<3", "PyYAML>=6,<7", "matplotlib>=3.7,<4", "optuna>=4,<6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+boosting = ["xgboost>=2", "lightgbm>=4", "catboost>=1.2"]
+
+[project.scripts]
+iiot = "iiot_ids.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110

@@ -1,0 +1,20 @@
+{
+  "accuracy": {
+    "ci95_difference": [
+      -0.01388888888888895,
+      0.05555555555555558
+    ],
+    "draws": 300,
+    "resampling_unit": "group",
+    "groups": 216
+  },
+  "macro_f1": {
+    "ci95_difference": [
+      -0.016334280445352112,
+      0.07481157032583297
+    ],
+    "draws": 300,
+    "resampling_unit": "group",
+    "groups": 216
+  }
+}

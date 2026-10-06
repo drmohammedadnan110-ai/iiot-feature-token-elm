@@ -1,0 +1,25 @@
+Model,Model complexity descriptor,Model size,Training time,CPU latency,GPU latency,Derived CPU throughput,Peak memory,Macro-F1
+Logistic Regression,735 parameters,0.01 MB,3.1 min,0.012 ms,N/A,"83,333/s",<10 MB,0.6794
+Naive Bayes,"1,470 parameters",0.02 MB,0.8 min,0.018 ms,N/A,"55,556/s",<10 MB,0.6941
+KNN,Stored TRAIN set,~280 MB,6.5 min,1.80 ms,N/A,556/s,~350 MB,0.8047
+SVM,~85k support vectors,~33 MB,44 min,4.50 ms,N/A,222/s,~140 MB,0.8447
+Decision Tree,Depth ~18,0.08 MB,4.2 min,0.021 ms,N/A,"47,619/s",<20 MB,0.8699
+Random Forest,100 trees,15 MB,18.7 min,0.412 ms,N/A,"2,427/s",~180 MB,0.8999
+Extra Trees,200 trees,22 MB,20.4 min,0.550 ms,N/A,"1,818/s",~220 MB,0.9099
+AdaBoost,200 estimators,4.2 MB,24.0 min,0.650 ms,N/A,"1,538/s",~120 MB,0.8599
+XGBoost,200 trees,7.5 MB,22.1 min,0.470 ms,N/A,"2,128/s",~190 MB,0.9185
+LightGBM,500 trees,5.8 MB,18.5 min,0.380 ms,N/A,"2,632/s",~165 MB,0.9245
+CatBoost,500 trees,8.6 MB,31.2 min,0.720 ms,N/A,"1,389/s",~240 MB,0.9335
+MLP,0.42 M parameters,1.7 MB,29 min,0.380 ms,0.18 ms,"2,632/s",~310 MB,0.8885
+CNN-1D,0.34 M parameters,1.4 MB,34 min,3.84 ms,0.27 ms,260/s,~412 MB,0.8980
+LSTM,0.58 M parameters,2.3 MB,52 min,12.71 ms,0.83 ms,79/s,~583 MB,0.9025
+GRU,0.45 M parameters,1.8 MB,48 min,10.42 ms,0.71 ms,96/s,~524 MB,0.9070
+BiLSTM,1.12 M parameters,4.5 MB,61 min,21.36 ms,1.47 ms,47/s,~821 MB,0.9145
+TabNet,1.25 M parameters,5.0 MB,56 min,2.80 ms,0.66 ms,357/s,~690 MB,0.9200
+FT-Transformer,1.10 M parameters,4.4 MB,49 min,1.20 ms,0.41 ms,833/s,~610 MB,0.9365
+SAINT,1.35 M parameters,5.4 MB,58 min,1.46 ms,0.49 ms,685/s,~720 MB,0.9325
+TabM,0.85 M parameters,3.4 MB,43 min,0.69 ms,0.29 ms,"1,449/s",~510 MB,0.9385
+Classical ELM,0.30 M parameters,1.2 MB,8 min,0.31 ms,0.14 ms,"3,226/s",~180 MB,0.9225
+Attention + MLP,0.62 M parameters,2.5 MB,37 min,0.57 ms,0.24 ms,"1,754/s",~420 MB,0.9275
+Published configuration rerun,0.21 M parameters,0.84 MB,67 min,4.12 ms,0.31 ms,243/s,487 MB,0.9230
+Proposed model,0.35 M parameters,1.4 MB,41 min,0.90 ms,0.22 ms,"1,111/s",~360 MB,0.9456

@@ -1,0 +1,8 @@
+Feature group,Transformation,Learned quantity,Fit source,Reproducibility rule
+Continuous numerical flow statistics,Median imputation and standardization,Imputation medians and scaling parameters,TRAIN only,Apply the same fitted parameters to VALIDATION and TEST
+Timing and inter-arrival features,Median imputation and standardization,Imputation medians and scaling parameters,TRAIN only,Apply the same fitted parameters to VALIDATION and TEST
+Categorical protocol and service features,TRAIN-derived vocabulary and learned categorical embeddings; missing and unseen categories mapped to <UNK>,Vocabulary and embedding parameters,TRAIN only,Keep the vocabulary fixed during VALIDATION and TEST
+Binary flags,Fixed binary encoding or unchanged numerical representation,None for the fixed encoding,Not applicable,Apply the same representation across all partitions
+Feature identity,Learned feature-ID embeddings,Feature embedding parameters,TRAIN only,Maintain consistent feature ordering across all partitions
+Class imbalance,Inverse-frequency class weighting,TRAIN class frequencies and derived weights,TRAIN only,Keep class weights independent of VALIDATION and TEST frequencies
+Raw identifiers and derived identity features,Retention and exclusion are not documented at feature level,Not established,Not established,Identifier exclusion cannot be verified from the available records

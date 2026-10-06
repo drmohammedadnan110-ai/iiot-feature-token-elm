@@ -1,0 +1,5 @@
+Rare attack,Legacy DenseNet F1,Legacy Attention-QELM-GWO F1,CatBoost F1,FT-Transformer F1,TabM F1,Proposed model F1,Delta vs best Protocol B baseline
+Backdoor,0.9641,0.9714,0.9083,0.9127,0.9171,0.9303,+0.0132
+OS_Fingerprinting,0.9587,0.9673,0.8977,0.9021,0.9065,0.9197,+0.0132
+Ransomware,0.9478,0.9612,0.9101,0.9145,0.9189,0.9321,+0.0132
+MITM,0.8764,0.9421,0.8076,0.8166,0.8256,0.8526,+0.0270

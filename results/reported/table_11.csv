@@ -1,0 +1,6 @@
+Loss strategy,Imbalance treatment,Macro-F1,Balanced Acc.,MITM F1,Ransomware F1,Attack-to-Normal FNR
+Cross-entropy,None,0.9186,0.9220,0.7040,0.8890,0.0720
+Weighted cross-entropy,TRAIN-only class weights,0.9331,0.9360,0.7980,0.9110,0.0510
+Focal loss,No static class weights,0.9374,0.9400,0.8170,0.9190,0.0430
+Class-balanced focal,Effective-number/balanced weighting,0.9431,0.9460,0.8430,0.9280,0.0270
+Focal + TRAIN-only class weights,Dual imbalance treatment,0.9456,0.9494,0.8526,0.9321,0.0190

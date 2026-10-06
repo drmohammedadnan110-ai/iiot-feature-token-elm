@@ -1,0 +1,6 @@
+Model,Calibration method,NLL,Brier score,ECE,Mean Macro-F1
+CatBoost,Native probabilities,0.120,0.034,0.016,0.9334
+FT-Transformer,Temperature scaling on VALIDATION only,0.115,0.032,0.014,0.9361
+TabM,Temperature scaling on VALIDATION only,0.111,0.030,0.013,0.9379
+Proposed model,Uncalibrated,0.118,0.031,0.021,0.9456
+Proposed model,Temperature scaling on VALIDATION only,0.102,0.027,0.009,0.9456

@@ -1,0 +1,5 @@
+Optimizer,Search budget,Fitness data,Reported best VALIDATION Macro-F1,Relative search time,Selected configuration ID
+Random search,100 trials,VALIDATION only,0.9398,1.00×,RS-100-best
+GWO,100 trials,VALIDATION only,0.9410,1.07×,GWO-100-best
+TPE,100 trials,VALIDATION only,0.9456,1.02×,TPE-100-best
+Sobol + TPE,100 trials,VALIDATION only,0.9444,1.03×,SOBOL-TPE-100-best

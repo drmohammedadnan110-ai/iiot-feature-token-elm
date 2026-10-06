@@ -1,0 +1,6 @@
+Dataset/transfer,Evaluation protocol,Feature schema,Macro-F1,Macro PR-AUC,Macro ROC-AUC,ECE
+ToN-IoT,Dataset-native retraining,Dataset-native,0.918,0.928,0.953,0.018
+X-IIoTID,Dataset-native retraining,Dataset-native,0.901,0.912,0.942,0.023
+CICIoT2023,Dataset-native retraining,Dataset-native,0.924,0.934,0.961,0.016
+Edge-IIoT -> ToN-IoT,Direct transfer,Harmonized common feature subset,0.781,0.804,0.864,0.061
+Edge-IIoT -> X-IIoTID,Direct transfer,Harmonized common feature subset,0.752,0.776,0.841,0.072
