@@ -28,7 +28,7 @@ def clean(value):
 def write_json(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(clean(value), indent=2, allow_nan=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(clean(value), indent=2, allow_nan=False) + "\n", encoding="utf-8", newline="\n")
 
 
 def read_json(path):
